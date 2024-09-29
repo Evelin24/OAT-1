@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste Salarial</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Reajuste Salarial</h1>
+        <form id="salarioForm">
+            <label for="salario">Digite o salário atual do colaborador (R$):</label>
+            <input type="number" id="salario" placeholder="Ex: 1500.00" required>
+            <button type="submit">Calcular Reajuste</button>
+        </form>
+        
+        <div id="resultado" class="resultado">
+            <h2>Resultado do Reajuste</h2>
+            <p id="salarioAtual">Salário antes do reajuste: R$</p>
+            <p id="percentual">Percentual de aumento aplicado: </p>
+            <p id="valorAumento">Valor do aumento: R$</p>
+            <p id="novoSalario">Novo salário: R$</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
